@@ -1,0 +1,190 @@
+body {
+    background-color: black;
+}
+
+.site-content,
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 200px;
+    background-color: white;
+}
+
+.hero,
+.footer {
+    background-color: #1f2937;
+}
+
+.hero {
+    padding: 0 100px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    margin: 0 100px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.subheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10%;
+    flex-grow: 1;
+    
+}
+
+.declaration {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.placeholder {
+    max-width: 50%;
+    min-width: 0;
+    min-height: 0;
+}
+
+.text1,
+.links,
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 10%;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 200px;
+    text-align: center;
+    flex-shrink: 1;
+}
+
+.image {
+    border-radius: 25px;
+    border: 2px solid #3882f6;
+    max-width: 200px;
+    max-height: 200px;
+    
+}
+
+.quote {
+    padding: 150px 20%;
+    background-color: #e5e7eb;
+
+}
+
+.text3 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.thor {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.thor {
+    text-align: end;
+}
+
+.blue {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin: 50px 100px;
+    padding: 50px 100px;
+}
+
+.text4 {
+    color: white;
+    font-size: 18px;
+}
+
+.bigger {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.footer { 
+    color: white;
+    padding: 15px 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+button,
+.blue {
+    background-color: #3882f6;
+}
+
+button {
+    border-radius: 5px;
+    border: solid #3882f6;
+}
+
+.button {
+    border: 2px solid white;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
